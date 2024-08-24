@@ -94,8 +94,7 @@
 
           <div class="hero-banner">
 
-            <img src="./hero-banner.jpeg" width="800" height="864" loading="lazy" alt="Ethan's Photo"
-              class="img-cover">
+            <img src="./hero-banner.jpeg" width="800" height="864" loading="lazy" alt="Ethan's Photo" class="img-cover">
 
             <div class="elem elem-1">
               <p class="elem-title">12</p>
@@ -146,11 +145,9 @@
 
           <figure class="about-banner">
 
-            <img src="./about-banner.jpg" width="800" height="652" loading="lazy" alt="Ethan's Photo"
-              class="img-cover">
+            <img src="./about-banner.jpg" width="800" height="652" loading="lazy" alt="Ethan's Photo" class="img-cover">
 
-            <img src="./absolute-image.jpg" width="800" height="717" loading="lazy" alt="Ethan's Photo"
-              class="abs-img">
+            <img src="./absolute-image.jpg" width="800" height="717" loading="lazy" alt="Ethan's Photo" class="abs-img">
 
             <div class="abs-icon abs-icon-1">
               <ion-icon name="logo-css3"></ion-icon>
@@ -305,56 +302,68 @@
                 <data class="skills-data" value="95">95%</data>
               </div>
 
-              <div class="skills-progress-bg">
-                <div class="skills-progress-fill" style="width: 95%;"></div>
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 95%"></div>
               </div>
             </li>
 
             <li class="skills-item">
               <div class="wrapper" style="width: 75%">
-                <h3 class=" skills-title">JavaScript</h3>
+                <h3 class="skills-title">React</h3>
 
                 <data class="skills-data" value="75">75%</data>
               </div>
 
-              <div class="skills-progress-bg">
-                <div class="skills-progress-fill" style="width: 75%;"></div>
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 75%"></div>
               </div>
             </li>
 
             <li class="skills-item">
-              <div class="wrapper" style="width: 80%">
-                <h3 class=" skills-title">Angular</h3>
+              <div class="wrapper" style="width: 90%">
+                <h3 class="skills-title">MongoDB</h3>
 
-                <data class="skills-data" value="80">80%</data>
+                <data class="skills-data" value="90">90%</data>
               </div>
 
-              <div class="skills-progress-bg">
-                <div class="skills-progress-fill" style="width: 80%;"></div>
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 90%"></div>
               </div>
             </li>
 
             <li class="skills-item">
               <div class="wrapper" style="width: 70%">
-                <h3 class=" skills-title">TypeScript</h3>
+                <h3 class="skills-title">Python</h3>
 
                 <data class="skills-data" value="70">70%</data>
               </div>
 
-              <div class="skills-progress-bg">
-                <div class="skills-progress-fill" style="width: 70%;"></div>
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 70%"></div>
               </div>
             </li>
 
             <li class="skills-item">
-              <div class="wrapper" style="width: 85%">
-                <h3 class=" skills-title">HTML</h3>
+              <div class="wrapper" style="width: 80%">
+                <h3 class="skills-title">PHP</h3>
 
-                <data class="skills-data" value="85">85%</data>
+                <data class="skills-data" value="80">80%</data>
               </div>
 
-              <div class="skills-progress-bg">
-                <div class="skills-progress-fill" style="width: 85%;"></div>
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 80%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 75%">
+                <h3 class="skills-title">JavaScript</h3>
+
+                <data class="skills-data" value="75">75%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 75%"></div>
               </div>
             </li>
 
@@ -370,90 +379,77 @@
       <section class="section contact" id="contact">
         <div class="container">
 
-          <p class="section-subtitle">Contact Me</p>
+          <div class="contact-card">
 
-          <h2 class="h2 section-title">Get in touch with me</h2>
+            <p class="card-subtitle">Don't be shy</p>
 
-          <p class="section-text">
-            Whether you have a project in mind or just want to say hello, feel free to get in touch. I look forward to connecting and discussing how we can create something amazing together.
-          </p>
+            <h2 class="h2 section-title">Drop Me a Line</h2>
 
-          <ul class="contact-list">
+            <div class="wrapper">
 
-            <li class="contact-item">
-              <div class="contact-card">
+              <form action="" class="contact-form">
 
-                <div class="card-icon">
-                  <ion-icon name="call"></ion-icon>
-                </div>
+                <input type="text" name="name" placeholder="Name" required class="contact-input">
 
-                <div>
-                  <h3 class="card-title">Phone</h3>
+                <input type="email" name="email" placeholder="Email" required class="contact-input">
 
-                  <a href="tel:+919821548621" class="card-text">+91 9821548621</a>
-                </div>
+                <textarea name="message" placeholder="Message" required class="contact-input"></textarea>
 
-              </div>
-            </li>
+                <button type="submit" class="btn-submit">Submit Message</button>
 
-            <li class="contact-item">
-              <div class="contact-card">
+              </form>
 
-                <div class="card-icon">
-                  <ion-icon name="mail"></ion-icon>
-                </div>
+              <ul class="contact-list">
 
-                <div>
-                  <h3 class="card-title">Email</h3>
+                <li class="contact-item">
 
-                  <a href="mailto:hello@pratyush.co.in" class="card-text">hello@moksha.co.in</a>
-                </div>
+                  <div class="contact-icon">
+                    <ion-icon name="location"></ion-icon>
+                  </div>
 
-              </div>
-            </li>
+                  <div>
+                    <h3 class="contact-item-title">Address</h3>
 
-            <li class="contact-item">
-              <div class="contact-card">
+                    <address class="contact-item-link">
+                      Mangalore,India
+                    </address>
+                  </div>
 
-                <div class="card-icon">
-                  <ion-icon name="location"></ion-icon>
-                </div>
+                </li>
 
-                <div>
-                  <h3 class="card-title">Location</h3>
+                <li class="contact-item">
 
-                  <address class="card-text">Lucknow, India</address>
-                </div>
+                  <div class="contact-icon">
+                    <ion-icon name="mail"></ion-icon>
+                  </div>
 
-              </div>
-            </li>
+                  <div>
+                    <h3 class="contact-item-title">Email</h3>
 
-          </ul>
+                    <a href="mailto:hello@ethan.com" class="contact-item-link">dasragu44@gmail.com</a>
+                  </div>
 
-          <form action="" class="contact-form">
+                </li>
 
-            <div class="input-wrapper">
-              <label for="name">Full Name*</label>
+                <li class="contact-item">
 
-              <input type="text" name="name" id="name" placeholder="Enter Your Full Name" required class="input-field">
+                  <div class="contact-icon">
+                    <ion-icon name="call"></ion-icon>
+                  </div>
+
+                  <div>
+                    <h3 class="contact-item-title">Phone</h3>
+
+                    <a href="tel:+1234567890" class="contact-item-link">+91 9110411715</a>
+                  </div>
+
+                </li>
+
+              </ul>
+
             </div>
 
-            <div class="input-wrapper">
-              <label for="email">Your Email*</label>
-
-              <input type="email" name="email" id="email" placeholder="Enter Your Email Address" required
-                class="input-field">
-            </div>
-
-            <div class="input-wrapper">
-              <label for="message">Your Message*</label>
-
-              <textarea name="message" id="message" placeholder="Enter Your Message" required class="input-field"></textarea>
-            </div>
-
-            <button type="submit" class="btn btn-primary blue">Send Message</button>
-
-          </form>
+          </div>
 
         </div>
       </section>
@@ -465,96 +461,69 @@
       <section class="section blog" id="blog">
         <div class="container">
 
-          <p class="section-subtitle">My Blogs</p>
+          <p class="section-subtitle">Latest News</p>
 
-          <h2 class="h2 section-title">My Awesome Blogs</h2>
+          <h2 class="h2 section-title">Checkout My Recent Blogs</h2>
 
           <p class="section-text">
-            Sharing insights, experiences, and tips on web development, coding, and the tech industry. Explore my blog to gain knowledge and stay updated with the latest trends.
+            Dive into my latest insights and explorations in web development. Stay updated with my thoughts on emerging trends, best practices, and innovative techniques.
           </p>
 
-          <ul class="blog-list has-scrollbar">
+          <ul class="blog-list">
 
-            <li class="blog-item">
+            <li>
               <div class="blog-card">
 
                 <figure class="card-banner">
                   <a href="#">
-                    <img src="./blog-1.jpg" width="1000" height="660" loading="lazy" alt="Ethan's Photo"
-                      class="img-cover">
+                    <img src="./blog-1.jpg" width="1181" height="843" loading="lazy"
+                      alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
                   </a>
                 </figure>
 
-                <div class="card-content">
+                <a href="#" class="card-tag">Web Development</a>
 
-                  <a href="#" class="card-subtitle">Web Design</a>
-
-                  <h3 class="h3 card-title">
-                    <a href="#">Web design trends to look out for in 2024</a>
-                  </h3>
-
-                  <div class="card-meta">
-                    <time datetime="2024-08-18">18 Aug 2024</time>
-                    <a href="#" class="meta-link">Moksha</a>
-                  </div>
-
-                </div>
+                <h3 class="card-title">
+                  <a href="#">Exploring the Latest Web Development Trends: Staying Ahead of the Curve</a>
+                </h3>
 
               </div>
             </li>
 
-            <li class="blog-item">
+            <li>
               <div class="blog-card">
 
                 <figure class="card-banner">
                   <a href="#">
-                    <img src="./blog-2.jpg" width="1000" height="660" loading="lazy" alt="Ethan's Photo"
-                      class="img-cover">
+                    <img src="./blog-2.jpg" width="1181" height="843" loading="lazy"
+                      alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
                   </a>
                 </figure>
 
-                <div class="card-content">
+                <a href="#" class="card-tag">Web Development</a>
 
-                  <a href="#" class="card-subtitle">Web Development</a>
-
-                  <h3 class="h3 card-title">
-                    <a href="#">Best practices for responsive web design</a>
-                  </h3>
-
-                  <div class="card-meta">
-                    <time datetime="2024-08-12">12 Aug 2024</time>
-                    <a href="#" class="meta-link">Moksha</a>
-                  </div>
-
-                </div>
+                <h3 class="card-title">
+                  <a href="#">Mastering the Art of Responsive Design: Ensuring Seamless User Experiences Across Devices</a>
+                </h3>
 
               </div>
             </li>
 
-            <li class="blog-item">
+            <li>
               <div class="blog-card">
 
                 <figure class="card-banner">
                   <a href="#">
-                    <img src="./blog-3.jpg" width="1000" height="660" loading="lazy" alt="Ethan's Photo"
-                      class="img-cover">
+                    <img src="./blog-3.jpg" width="1181" height="843" loading="lazy"
+                      alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
                   </a>
                 </figure>
 
-                <div class="card-content">
+                <a href="#" class="card-tag">Web Development</a>
 
-                  <a href="#" class="card-subtitle">User Experience</a>
-
-                  <h3 class="h3 card-title">
-                    <a href="#">Improving UX with accessible design</a>
-                  </h3>
-
-                  <div class="card-meta">
-                    <time datetime="2024-08-05">05 Aug 2024</time>
-                    <a href="#" class="meta-link">Moksha</a>
-                  </div>
-
-                </div>
+                <h3 class="card-title">
+                  <a href="#">Harnessing Creativity in Web Development: Transforming Ideas into Digital Reality</a>
+                </h3>
 
               </div>
             </li>
@@ -574,91 +543,42 @@
   <footer class="footer">
     <div class="container">
 
-      <div class="footer-top">
+      <p class="copyright">
+        &copy; 2024 <a href="#" class="copyright-link">Pratyush</a>. All Rights Reserved
+      </p>
 
-        <a href="#">
-          <h1 class="logo">Moksha</h1>
-        </a>
+      <ul class="footer-list">
+        <li>
+          <a href="#" class="footer-link">Terms & Condition</a>
+        </li>
 
-        <p class="footer-text">
-          A passionate web developer dedicated to building responsive and user-friendly websites. Let's work together to create something amazing.
-        </p>
-
-        <ul class="social-list">
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-facebook"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-linkedin"></ion-icon>
-            </a>
-          </li>
-
-        </ul>
-
-      </div>
-
-      <div class="footer-bottom">
-        <ul class="footer-list">
-
-          <li>
-            <a href="#home" class="footer-link">Home</a>
-          </li>
-
-          <li>
-            <a href="#about" class="footer-link">About</a>
-          </li>
-
-          <li>
-            <a href="#portfolio" class="footer-link">Portfolio</a>
-          </li>
-
-          <li>
-            <a href="#blog" class="footer-link">Blog</a>
-          </li>
-
-          <li>
-            <a href="#contact" class="footer-link">Contact</a>
-          </li>
-
-        </ul>
-
-        <p class="copyright">
-          &copy; 2024 Moksha. All rights reserved.
-        </p>
-      </div>
+        <li>
+          <a href="#" class="footer-link">Privacy Policy</a>
+        </li>
+      </ul>
 
     </div>
   </footer>
 
   <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-to-top" data-back-to-top>BACK TOP</a>
+
+  <!-- 
     - custom js link
   -->
-  <script src="./assets/js/script.js" defer></script>
+  <script src="./script.js"></script>
 
   <!-- 
     - ionicon link
   -->
-  <script type="module" src="https://unpkg.com/ionicons@6.0.1/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@6.0.1/dist/ionicons/ionicons.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 </body>
 
 </html>
+
 
